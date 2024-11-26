@@ -19,6 +19,7 @@ function breakDownObj(obj) {
   return [...Object.keys(obj), ...Object.values(obj)]
 }
 
+
 let object1 = {name: 'Rupert', age: 5, speak: 'Meow'};
 console.log(breakDownObj(object1)); // => [ 'name', 'age', 'speak', 'Rupert', 5, 'Meow' ]
 

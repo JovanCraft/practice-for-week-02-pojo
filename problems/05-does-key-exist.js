@@ -18,6 +18,7 @@ function doesKeyExist(obj, key) {
   return true
 }
 
+
 let obj1 = {bootcamp: 'App Academy', course: 'Bootcamp Prep'}
 
 console.log(doesKeyExist(obj1, 'course')); // => true
